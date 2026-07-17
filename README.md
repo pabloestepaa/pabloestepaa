@@ -6,13 +6,14 @@ Soy Ingeniero Informático formado en la Universidad de Córdoba (UCO) especiali
 
 ## 🚀 Sobre mí
 
-- 🎓 **Formación:** Graduado en Ingeniería Informática, Especialidad en Computación.
+- 🎓 **Formación:** Grado en Ingeniería Informática, Especialidad en Computación.
 - 🔬 **Investigación:** Reducción de dimensionalidad de una matriz de características de bacterias frente a la susceptibilidad de antibióticos. El proyecto abarca la extracción de la explicabilidad del modelo exportada a formato JSON y el entrenamiento de un LLM propio para interpretar y explicar dichos resultados de forma natural.
-- 💼 **Experiencia:** Desarrollador en Azabache Ingeniería SL. Trabajo en el desarrollo y mantenimiento de software integrado, utilizando tecnologías como .NET y Symphony.
-- 🤝 **Colaboración:** Experiencia resolviendo problemas en entornos de ingeniería profesionales y redactando documentación técnica e investigativa de alto rigor (LaTeX).
+- 💼 **Experiencia:** Desarrollador en Azabache Ingeniería SL. Trabajo en el desarrollo y mantenimiento de software utilizando Symfony.
+- 🤝 **Colaboración & Soft Skills:** Facilidad para el trabajo en equipo, adaptabilidad, organización y capacidad para rendir eficazmente bajo presión en entornos profesionales dinámicos. Amplia experiencia redactando documentación técnica (LaTeX).
 
 ## 🛠️ Stack Tecnológico
 
+**Lenguajes de Programación:**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
@@ -31,10 +32,12 @@ Soy Ingeniero Informático formado en la Universidad de Córdoba (UCO) especiali
 ![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
 
+*Otras competencias técnicas:* Metaheurística, Administración de Servidores de Aplicaciones, Sistemas Operativos y Programación Web.
+
 ## 📈 Proyectos Destacados
 
 * **Análisis de Susceptibilidad Antibiótica y LLM Explicativo:** Proyecto centrado en la reducción de dimensionalidad de datos bacterianos. Incluye la serialización de datos de explicabilidad en JSON y el ajuste/entrenamiento de un LLM a medida para generar conclusiones biológicas comprensibles.
-* **Desarrollo Backend en Azabache Ingeniería:** Implementación de arquitecturas de software y soluciones técnicas utilizando el ecosistema .NET y Symphony para proyectos de ingeniería.
+* **Desarrollo en Azabache Ingeniería:** Implementación de soluciones técnicas y desarrollo de software utilizando Symfony.
 
 ## 📫 Cómo contactar conmigo
 
