@@ -1,45 +1,61 @@
 # Hi, I'm Pablo Estepa 👋
 
-**Computer Engineer | Specialized in Computation**
+**Software Engineer · Bioinformatics · Antimicrobial Resistance (AMR) & Machine Learning**
 
-I am a Computer Engineer from the University of Córdoba (UCO) specialized in Computation, with a solid technical background and a proven ability to tackle large-scale projects. My profile combines software development with research in advanced data analysis, dimensionality reduction, and the training of Large Language Models (LLMs) applied to bioinformatics.
+I build production software for a living and I'm bringing that discipline to bioinformatics:
+tested, reproducible tools for antimicrobial resistance research.
+Computer Engineering (Computing track) at the University of Córdoba, Spain.
 
-## 🚀 About me
+## 🔬 What I'm working on
 
-- 🎓 **Education:** Degree in Computer Engineering, Specialization in Computation.
-- 🔬 **Research:** Dimensionality reduction of a bacterial feature matrix against antibiotic susceptibility. The project encompasses extracting the model's explainability, exporting it to a JSON format, and training a custom LLM to naturally interpret and explain these results.
-- 💼 **Experience:** Software Developer at Azabache Ingeniería SL. I work on software development and maintenance using Symfony.
-- 🤝 **Collaboration & Soft Skills:** Strong team player, highly adaptable, organized, and capable of performing effectively under pressure in dynamic professional environments. Extensive experience writing technical documentation (LaTeX).
+### 🧬 [amr-mcp](https://github.com/pabloestepaa/amr-mcp) · AMR data for AI assistants
+[![PyPI](https://img.shields.io/pypi/v/amr-mcp)](https://pypi.org/project/amr-mcp/)
+[![CI](https://github.com/pabloestepaa/amr-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/pabloestepaa/amr-mcp/actions/workflows/ci.yml)
 
-## 🛠️ Tech Stack
+An [MCP](https://modelcontextprotocol.io) server that lets Claude, Codex or Cursor query **antimicrobial resistance** data:
+the NCBI Reference Gene Catalog behind AMRFinderPlus (~11,500 genes), NCBI E-utilities (sequences, PubMed),
+UniProt, and local AMRFinderPlus runs. Public data only, no API keys. `pip install amr-mcp`
 
-**Programming Languages:**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+### 🧪 [amr-metaheuristics-xai](https://github.com/pabloestepaa/amr-metaheuristics-xai) · Bachelor's thesis: AMR prediction with explainable feature selection
+Predicting antibiotic susceptibility in *E. coli* (ampicillin, ciprofloxacin, trimethoprim/sulfamethoxazole)
+from genomic data (gene presence/absence and SNPs) with a **custom evolutionary metaheuristic for feature selection**,
+benchmarked against classical baselines with nested cross-validation and statistical tests.
+Next phase: explainability, turning the selected features into template-based and LLM-generated explanations.
+*Python · scikit-learn · XGBoost · pandas · pytest* (in progress)
 
-**Artificial Intelligence & Data:**
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=databricks&logoColor=white)
-![Databases](https://img.shields.io/badge/Databases-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+### 🔧 Open source · [nf-core](https://nf-co.re)
+Contributing modules to nf-core, the community of bioinformatics pipelines built with Nextflow.
+- [`hamronization/resfinder`](https://github.com/nf-core/modules/pull/13565): converts ResFinder results to the hAMRonization AMR reporting standard (in review)
+- [Test data](https://github.com/nf-core/test-datasets/pull/2360) for the module in nf-core/test-datasets
 
-**Tools, Systems & Development:**
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
+### 💼 Software Engineer · Azabache Ingeniería
+I develop and maintain the company's internal management platform (private):
+budgets in FIEBDC-3/BC3 format, certifications, invoicing, time tracking, per-project profitability,
+client and partner portals, and PDF document generation.
+*PHP · Symfony 7.4 · Doctrine · MySQL · Twig · PHPUnit · GitHub Actions*
 
-*Other technical skills:* Metaheuristics, Application Server Administration, Operating Systems, and Web Programming.
+## 🛠️ Tech stack
 
-## 📈 Featured Projects
+**Bioinformatics & ML**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Nextflow](https://img.shields.io/badge/Nextflow-0DC09D?style=flat-square&logo=nextflow&logoColor=white)
+![nf-core](https://img.shields.io/badge/nf--core-24B064?style=flat-square)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-* **Antibiotic Susceptibility Analysis & Explanatory LLM:** Project focused on the dimensionality reduction of bacterial data. It includes the serialization of explainability data in JSON and the fine-tuning/training of a custom LLM to generate understandable biological conclusions.
-* **Software Development at Azabache Ingeniería:** Implementation of technical solutions and software development using Symfony.
+**Software engineering**
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Symfony](https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-## 📫 How to reach me
+## 📫 Get in touch
 
-- **LinkedIn:** [linkedin.com/in/pabloestepa](https://www.linkedin.com/in/pabloestepa)
-- **Email:** pabloestepaalcaide011@gmail.com
+[LinkedIn](https://www.linkedin.com/in/pabloestepa) · pabloestepaalcaide011@gmail.com
+
+Happy to talk about bioinformatics, AMR, Nextflow or ML for life sciences.
