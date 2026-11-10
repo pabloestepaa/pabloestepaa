@@ -38,8 +38,9 @@ Next phase: explainability, turning the selected features into template-based an
 
 ### Open source · [nf-core](https://nf-co.re)
 Contributing modules to nf-core, the community of bioinformatics pipelines built with Nextflow.
-- [`hamronization/resfinder`](https://github.com/nf-core/modules/pull/13565): converts ResFinder results to the hAMRonization AMR reporting standard (in review)
-- [Test data](https://github.com/nf-core/test-datasets/pull/2360) for the module in nf-core/test-datasets
+Both merged after peer review and tested in CI with Docker, Singularity and Conda.
+- [`hamronization/resfinder`](https://github.com/nf-core/modules/pull/13565): converts ResFinder results to the hAMRonization AMR reporting standard, with its [test data](https://github.com/nf-core/test-datasets/pull/2360) in nf-core/test-datasets
+- [`isescan`](https://github.com/nf-core/modules/pull/13632): detects insertion sequence (IS) elements, mobile elements that can move resistance genes around, in bacterial genomes and metagenomes
 
 ### Software Engineer · Azabache Ingeniería
 I develop and maintain the company's internal management platform (private):
